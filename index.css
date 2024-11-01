@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+* {
+  font-family: "Playwrite GB S", cursive;
+}
+.navbar {
+    background-color: #232f3e;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .inputBox {
+    padding: 10px;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+  }
+  .hading {
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+  }
+  .search {
+    height: 80px;
+    width: 250px;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    margin: 10px;
+  }
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 40px auto;
+    height: 800px;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .infocard {
+    margin: 10px;
+  }
+  .infocard-two {
+    width: 420px;
+  }
+  .img {
+    height: 560px;
+  }
+  .title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px;
+    font-family: cursive;
+  }
+  .info-movie {
+    margin: 30px;
+    font-size: 18px;
+
+    font-weight: 700;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .ct {
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  .p {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .s {
+    font-weight: 200;
+  }
+  @media only screen and (max-width: 600px) {
+    .img {
+      height: 160px;
+    }
+  }
